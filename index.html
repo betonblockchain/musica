@@ -212,7 +212,7 @@
           loadLocalFiles(fileSelector[0].files);
         }
         */
-        let response = await fetch('http://localhost:8080/music.mp3');
+        let response = await fetch('https://betonblockchain.github.io/musica/music.mp3');
         let data = await response.blob();
         let metadata = {
             type: 'audio/mpeg'
